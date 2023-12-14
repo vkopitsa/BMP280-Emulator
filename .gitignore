@@ -1,0 +1,34 @@
+
+# Ignore build files
+/build/
+
+# Ignore temporary files created by the Arduino IDE
+*.tmp
+*.log
+*.tlog
+*.d
+*.o
+*.obj
+*.elf
+*.hex
+*.eep
+*.map
+*.sym
+*.lss
+*.a
+*.ar
+*.pde
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.userprefs
+*.suo
+*.opensdf
+*.sdf
+*.layout
+*.i
+*.ii
+*.s
+*.ino.cpp
+.DS_Store
