@@ -2,11 +2,13 @@
 
 This repository contains the library for the BMP280 Emulator project.
 
+*Read this in other languages: [English](README.md), [Українська](README.ua.md).*
+
 ## Demo
 
 https://www.tinkercad.com/things/bAngWSZNUG7-bmp280-emulator-playground?sharecode=GnD5F3vCIjBSxAsLHlOoxG4NRtstipNy1mo6nr-XVWQ
 
-
+![BMP280 Emulator playground](Screenshot.png)
 
 ## Installation
 
@@ -16,6 +18,15 @@ To use this project, follow these steps:
 2. Include the `BMP280Emulator` library in your Arduino IDE.
 3. Open the example sketch file `BMP280EmulatorExample.ino`.
 4. Upload the sketch to your Arduino board.
+
+## Hardware Setup
+
+To simulate external temperature and pressure readings:
+
+- Connect a potentiometer to analog pin A0 to emulate pressure.
+- Connect another potentiometer to analog pin A1 to emulate temperature.
+
+These potentiometers will act as variable resistors, allowing you to change the analog input values read by the Arduino, thereby simulating different temperature and pressure readings.
 
 ## Usage Example
 
